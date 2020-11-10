@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  /* background-image: url(images/bg.jpg); */
+  background-size: 1024px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.fixedbar {
+background-color: white;
+height: 160px;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+ 
+}
+
+header {
+  height: 120px;
+  text-align: center;
+  
+}
+
+.kaka {
+  position: relative;
+}
+nav {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  /* position: fixed;
+  width: 100%; */
+}
+.picture {
+  background-image: url(images/welcome-02.png);
+  background-position: absolute;
+  background-size: 70%;
+  background-repeat: no-repeat;
+width: 1024px;
+height: 380px;
+margin-top: 10px;
+}
+
+main {
+  text-align: center;
+  margin-top: 160px;
+  background: url(images/longbg2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+.textbox {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+footer {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 84px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 18px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+}
